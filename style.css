@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.theBody{
+    background: #141642;
+    height: 77vh;
+    width: 380px;
+    margin: 6% 35%;
+    border-radius: 42px;
+    position: relative;
+    padding: 22px;
+}
+
+.chan{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.titlem {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.theInnerDisplay {
+    background: #171c4e;
+    height: 28vh;
+    width: 100%;
+    border-radius: 22px;
+    margin: auto;
+}
+
+/* .theIcon {
+    position: absolute;
+    top: 122px;
+    left: 130px;
+} */
+
+.dayTime {
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 22px 0;
+}
+
+.day {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.thetempSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tempLocation, .tempDesc{
+    color: #af7b20;
+}
+
+.degree {
+    font-size: 22px;
+}
+
+.tempDescM{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+
+.tempDegree{
+    cursor: pointer;
+}
+
+
+.theFinalPart{
+    margin: 50px 0 5px;
+}
+.theNews{
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 1px;
+}
+
+.theNews2 {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    padding: 12px 22px;
+    color: rgb(232, 219, 203);
+}
+
+.theFinalPart a{
+    background: #f6a71c;
+    font-size: 14px;font-family: 'Raleway', sans-serif;
+    padding: 12px 112px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    letter-spacing: 1.3px;
+    font-weight: bolder;
+}
+/* .topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/* .hamburger div{
+    background: #ffffff;
+    height: 1px;
+    width: 22px;
+    margin: 3px;
+} */
